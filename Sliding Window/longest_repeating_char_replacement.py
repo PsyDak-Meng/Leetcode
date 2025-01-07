@@ -1,5 +1,6 @@
-# Longest Repeating Character Replacement
 """
+    Longest Repeating Character Replacement
+    Solved
     You are given a string s consisting of only uppercase english characters and an integer k. You can choose up to k characters of the string and replace them with any other uppercase English character.
 
     After performing at most k replacements, return the length of the longest substring which contains only one distinct character.
@@ -16,10 +17,13 @@
     Input: s = "AAABABB", k = 1
 
     Output: 5
+
     Constraints:
 
     1 <= s.length <= 1000
     0 <= k <= s.length
+
+    You should aim for a solution with O(n) time and O(m) space, where n is the length of the given string and m is the number of unique characters in the string.
 """
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
