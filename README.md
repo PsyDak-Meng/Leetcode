@@ -1,2 +1,2 @@
 # Leetcode
-My repo of leetcode study under Neetcode structure
+My repo of leetcode study under Neetcode structure & company trending problems.
